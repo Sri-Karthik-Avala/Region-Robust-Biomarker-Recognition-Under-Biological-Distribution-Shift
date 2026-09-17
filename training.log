@@ -1,0 +1,105 @@
+root: C:\Users\srika\Downloads\eris_region device: cuda model: convnext_small.fb_in22k_ft_in1k
+classes: ['20x', 'CD3', 'CD45RO', 'CD8', 'HE', 'LAG3', 'PD1', 'T']
+counts: {'T': 197, 'CD3': 194, 'CD45RO': 189, 'CD8': 187, '20x': 158, 'LAG3': 158, 'PD1': 155, 'HE': 2}
+class weights: {'20x': 1.04, 'CD3': 0.94, 'CD45RO': 0.96, 'CD8': 0.96, 'HE': 4.0, 'LAG3': 1.04, 'PD1': 1.05, 'T': 0.94}
+
+===== fold 0 =====
+  ep01 lr1.00e-04 loss1.459 val score0.6728 acc0.6855 f10.6600 (74s)
+  ep02 lr2.00e-04 loss1.173 val score0.6336 acc0.6532 f10.6140 (16s)
+  ep03 lr2.00e-04 loss1.079 val score0.6789 acc0.6895 f10.6683 (16s)
+  ep04 lr1.97e-04 loss0.954 val score0.7161 acc0.7218 f10.7104 (16s)
+  ep05 lr1.87e-04 loss0.886 val score0.7160 acc0.7137 f10.7182 (16s)
+  ep06 lr1.71e-04 loss0.878 val score0.7041 acc0.7258 f10.6824 (16s)
+  ep07 lr1.50e-04 loss0.844 val score0.8307 acc0.8266 f10.8348 (16s)
+  ep08 lr1.26e-04 loss0.786 val score0.7757 acc0.7702 f10.7812 (17s)
+  ep09 lr1.00e-04 loss0.722 val score0.7788 acc0.7742 f10.7834 (17s)
+  ep10 lr7.41e-05 loss0.667 val score0.8008 acc0.7984 f10.8031 (17s)
+  ep11 lr5.00e-05 loss0.619 val score0.7835 acc0.7782 f10.7887 (17s)
+  ep12 lr2.93e-05 loss0.602 val score0.8438 acc0.8427 f10.8448 (17s)
+  ep13 lr1.34e-05 loss0.591 val score0.8354 acc0.8347 f10.8362 (18s)
+  ep14 lr3.41e-06 loss0.564 val score0.8412 acc0.8387 f10.8437 (18s)
+  EMA val score0.7970 acc0.7903 f10.8036
+  fold 0 best=0.8438 (raw)
+
+===== fold 1 =====
+  ep01 lr1.00e-04 loss1.471 val score0.6461 acc0.6532 f10.6390 (69s)
+  ep02 lr2.00e-04 loss1.134 val score0.6422 acc0.6613 f10.6230 (16s)
+  ep03 lr2.00e-04 loss1.012 val score0.7393 acc0.7379 f10.7407 (16s)
+  ep04 lr1.97e-04 loss0.941 val score0.7252 acc0.7298 f10.7206 (17s)
+  ep05 lr1.87e-04 loss0.851 val score0.7078 acc0.7137 f10.7019 (17s)
+  ep06 lr1.71e-04 loss0.837 val score0.7852 acc0.7863 f10.7842 (18s)
+  ep07 lr1.50e-04 loss0.793 val score0.8035 acc0.8065 f10.8006 (18s)
+  ep08 lr1.26e-04 loss0.703 val score0.8501 acc0.8508 f10.8495 (20s)
+  ep09 lr1.00e-04 loss0.707 val score0.8476 acc0.8468 f10.8483 (20s)
+  ep10 lr7.41e-05 loss0.657 val score0.8316 acc0.8306 f10.8326 (25s)
+  ep11 lr5.00e-05 loss0.626 val score0.8726 acc0.8710 f10.8743 (31s)
+  ep12 lr2.93e-05 loss0.594 val score0.8591 acc0.8589 f10.8593 (34s)
+  ep13 lr1.34e-05 loss0.570 val score0.8677 acc0.8669 f10.8684 (39s)
+  ep14 lr3.41e-06 loss0.551 val score0.8677 acc0.8669 f10.8684 (46s)
+  EMA val score0.8612 acc0.8589 f10.8635
+  fold 1 best=0.8726 (raw)
+
+===== fold 2 =====
+  ep01 lr1.00e-04 loss1.411 val score0.6888 acc0.6895 f10.6880 (77s)
+  ep02 lr2.00e-04 loss1.084 val score0.7371 acc0.7500 f10.7241 (20s)
+  ep03 lr2.00e-04 loss1.071 val score0.7678 acc0.7621 f10.7735 (33s)
+  ep04 lr1.97e-04 loss0.938 val score0.7965 acc0.7944 f10.7987 (52s)
+  ep05 lr1.87e-04 loss0.910 val score0.7124 acc0.7339 f10.6910 (66s)
+  ep06 lr1.71e-04 loss0.863 val score0.7948 acc0.8024 f10.7872 (73s)
+  ep07 lr1.50e-04 loss0.786 val score0.8530 acc0.8548 f10.8511 (70s)
+  ep08 lr1.26e-04 loss0.735 val score0.8835 acc0.8831 f10.8840 (74s)
+  ep09 lr1.00e-04 loss0.718 val score0.8654 acc0.8629 f10.8680 (75s)
+  ep10 lr7.41e-05 loss0.666 val score0.8895 acc0.8871 f10.8919 (40s)
+  ep11 lr5.00e-05 loss0.639 val score0.8973 acc0.8952 f10.8994 (22s)
+  ep12 lr2.93e-05 loss0.575 val score0.8757 acc0.8750 f10.8764 (24s)
+  ep13 lr1.34e-05 loss0.585 val score0.8854 acc0.8831 f10.8877 (20s)
+  ep14 lr3.41e-06 loss0.549 val score0.8926 acc0.8911 f10.8940 (20s)
+  EMA val score0.8814 acc0.8790 f10.8839
+  fold 2 best=0.8973 (raw)
+
+===== fold 3 =====
+  ep01 lr1.00e-04 loss1.462 val score0.6415 acc0.7016 f10.5813 (72s)
+  ep02 lr2.00e-04 loss1.115 val score0.5718 acc0.6250 f10.5185 (16s)
+  ep03 lr2.00e-04 loss1.055 val score0.6696 acc0.7218 f10.6174 (17s)
+  ep04 lr1.97e-04 loss0.936 val score0.7656 acc0.8145 f10.7167 (18s)
+  ep05 lr1.87e-04 loss0.879 val score0.7106 acc0.7621 f10.6591 (19s)
+  ep06 lr1.71e-04 loss0.845 val score0.7570 acc0.8065 f10.7076 (19s)
+  ep07 lr1.50e-04 loss0.744 val score0.7633 acc0.8145 f10.7121 (19s)
+  ep08 lr1.26e-04 loss0.719 val score0.7882 acc0.8387 f10.7377 (19s)
+  ep09 lr1.00e-04 loss0.677 val score0.7517 acc0.8024 f10.7010 (20s)
+  ep10 lr7.41e-05 loss0.681 val score0.7885 acc0.8387 f10.7383 (19s)
+  ep11 lr5.00e-05 loss0.612 val score0.7963 acc0.8468 f10.7458 (19s)
+  ep12 lr2.93e-05 loss0.590 val score0.8038 acc0.8548 f10.7528 (20s)
+  ep13 lr1.34e-05 loss0.563 val score0.7851 acc0.8347 f10.7355 (19s)
+  ep14 lr3.41e-06 loss0.559 val score0.7928 acc0.8427 f10.7428 (19s)
+  EMA val score0.7956 acc0.8468 f10.7444
+  fold 3 best=0.8038 (raw)
+
+===== fold 4 =====
+  ep01 lr1.00e-04 loss1.425 val score0.6319 acc0.6935 f10.5702 (71s)
+  ep02 lr2.00e-04 loss1.092 val score0.6387 acc0.6855 f10.5919 (16s)
+  ep03 lr2.00e-04 loss0.982 val score0.6206 acc0.6815 f10.5598 (17s)
+  ep04 lr1.97e-04 loss0.911 val score0.7424 acc0.7903 f10.6946 (18s)
+  ep05 lr1.87e-04 loss0.833 val score0.7592 acc0.8065 f10.7119 (19s)
+  ep06 lr1.71e-04 loss0.842 val score0.7831 acc0.8347 f10.7316 (18s)
+  ep07 lr1.50e-04 loss0.790 val score0.7329 acc0.7863 f10.6795 (19s)
+  ep08 lr1.26e-04 loss0.700 val score0.7798 acc0.8306 f10.7290 (19s)
+  ep09 lr1.00e-04 loss0.680 val score0.7446 acc0.7984 f10.6909 (19s)
+  ep10 lr7.41e-05 loss0.683 val score0.8100 acc0.8629 f10.7572 (19s)
+  ep11 lr5.00e-05 loss0.626 val score0.7966 acc0.8468 f10.7465 (19s)
+  ep12 lr2.93e-05 loss0.595 val score0.8106 acc0.8629 f10.7582 (19s)
+  ep13 lr1.34e-05 loss0.557 val score0.8222 acc0.8750 f10.7694 (20s)
+  ep14 lr3.41e-06 loss0.566 val score0.8141 acc0.8669 f10.7613 (19s)
+  EMA val score0.8028 acc0.8548 f10.7507
+  fold 4 best=0.8222 (raw)
+
+CV mean score: 0.8479  folds=5
+  inferred fold 0
+  inferred fold 1
+  inferred fold 2
+  inferred fold 3
+  inferred fold 4
+
+pred distribution: {'CD8': 88, 'CD3': 69, 'CD45RO': 66, 'PD1': 62, 'LAG3': 61, 'T': 57, '20x': 51}
+
+wrote C:\Users\srika\Downloads\eris_region\working\submission.csv rows=454  total 2296s
